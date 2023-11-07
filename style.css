@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.scorecard {
+    max-width: 100%;
+    padding: 1px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse ;
+  }
+  
+  th, td {
+    padding: 8.75px;
+    text-align: left;
+  }
+  
+  th {
+    background: #333;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+
+  tr:nth-child(2) th{
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  
+  tr:hover {
+    background: #ddd;
+  }
+
+  .arrow{
+    -webkit-transform: rotate(90deg);
+  }
